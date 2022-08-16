@@ -7,7 +7,7 @@ const HeaderMobile = (props) => {
       <div className='menuHamburguer'>
         <i class='fa-solid fa-bars'></i>
       </div>
-      <Logo />
+     
     </nav>
   );
 };

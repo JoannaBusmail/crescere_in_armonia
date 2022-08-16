@@ -9,6 +9,7 @@ const Header = () => {
     <header>
       <div className='headerMobile'>
         <HeaderMobile />
+        <Logo />
       </div>
       <div className='headerDesktop'>
         <HeaderNav />
