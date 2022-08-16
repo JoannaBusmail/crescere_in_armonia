@@ -1,0 +1,15 @@
+.headerDesktop{
+    height: -300vh;
+    display: none;
+
+
+      /*DESKTOP*/
+    @media (min-width: 820px) {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+   margin: 40px;
+   
+}}

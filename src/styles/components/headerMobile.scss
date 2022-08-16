@@ -1,0 +1,27 @@
+
+.headerMobile {
+    width:100%;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+ 
+
+
+      /*DESKTOP*/
+      @media (min-width: 820px) {
+        height: -300vh;
+        display: none;
+      }
+.menuHamburguer{
+    width: 24px;
+ 
+    position: fixed;
+    top: 33px;
+    left: 33px;
+ 
+
+}
+
+
+
+    }
