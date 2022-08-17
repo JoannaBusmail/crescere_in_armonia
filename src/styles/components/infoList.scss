@@ -1,0 +1,14 @@
+.infoList{
+    display: flex;
+    flex-direction: column;
+
+    &__content{
+        width: 300px;
+}
+
+    @media (min-width: 720px){
+   flex-direction: row;
+}
+
+
+}
