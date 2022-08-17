@@ -1,6 +1,8 @@
 .infoList{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
 
     &__content{
         width: 300px;
@@ -11,4 +13,9 @@
 }
 
 
+}
+
+.article{
+   list-style: none;
+    margin-left: 30px;
 }
