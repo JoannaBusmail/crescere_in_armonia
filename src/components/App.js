@@ -6,6 +6,8 @@ import Verde from '../images/verde.png';
 import Header from './Header';
 import About from './About';
 import Info from './Info';
+import Courses from './Courses';
+import Form from './Form';
 
 function App() {
   //renders
@@ -48,6 +50,8 @@ function App() {
       <Header />
       <About />
       <ul className='infoList'>{renderArticle()} </ul>
+      <Courses />
+      <Form />
     </>
   );
 }
